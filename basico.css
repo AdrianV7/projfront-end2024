@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  /* Estilos do corpo */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+  /* Estilos do cabeçalho do site */
+header {
+    background: #4d7699;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+#home{
+    text-decoration: none;
+    color: #fff;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display:inline;
+    margin: 0 10px;
+}
+
+nav ul li a{
+    color: #e3dcdc;
+    text-decoration: none;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: #334c63;
+}
+
+footer a{
+    color: #e3dcdc;
+    text-decoration: none;
+}
