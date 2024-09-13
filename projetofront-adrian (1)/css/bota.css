@@ -1,0 +1,11 @@
+@import url(../css/basico.css);
+
+div{
+    text-align: center;
+}
+#nela{
+    font-size: 350px;
+    font-weight: 700px;
+    text-decoration: none;
+    color: black;
+}

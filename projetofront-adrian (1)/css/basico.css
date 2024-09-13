@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  /* Estilos do corpo */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+  /* Estilos do cabeçalho do site */
+header {
+    background: #4d7699;
+    color: #fff;
+    padding: 1px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#home{
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 32px;
+    color: #fff;
+}
+
+#menu{
+    flex: 1;
+    align-items: center;
+    margin-left: -100px;
+    
+}
+
+#logo{
+    height: 100px;
+    margin-left: 10px;
+}
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display:inline;
+    margin: 0 10px;
+}
+
+nav ul li a{
+    color: #e3dcdc;
+    text-decoration: none;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: #334c63;
+}
+
+footer a{
+    color: #e3dcdc;
+    text-decoration: none;
+}
